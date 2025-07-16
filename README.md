@@ -59,32 +59,32 @@ A comprehensive Linux VPS cleanup and optimization tool designed for enterprise 
 
 1. Download the script:
 ```bash
-wget https://raw.githubusercontent.com/your-repo/vps_optimizer.py
-chmod +x vps_optimizer.py
+git clone  https://github.com/Scav-engeR/VPS_D.O.C/
+chmod +x Vps_Optimizer.py
 ```
 
 2. Run with root privileges:
 ```bash
-sudo python3 vps_optimizer.py
+sudo python3 Vps_Optimizer.py
 ```
 
 ## Usage
 
 ### Interactive Mode
 ```bash
-sudo python3 vps_optimizer.py
+sudo python3 Vps_Optimizer.py
 ```
 Launches the interactive menu with all available options.
 
 ### Automated Mode
 ```bash
-sudo python3 vps_optimizer.py --auto
+sudo python3 Vps_Optimizer.py --auto
 ```
 Runs complete optimization suite without user interaction.
 
 ### Directory Scan Only
 ```bash
-sudo python3 vps_optimizer.py --scan /path/to/directory
+sudo python3 Vps_Optimizer.py --scan /path/to/directory
 ```
 Scans specified directory and displays size information.
 
@@ -108,32 +108,32 @@ Scans specified directory and displays size information.
 ### Basic System Cleanup
 ```bash
 # Interactive cleanup
-sudo python3 vps_optimizer.py
+sudo python3 Vps_Optimizer.py
 # Select option 2
 
 # Automated full optimization
-sudo python3 vps_optimizer.py --auto
+sudo python3 Vps_Optimizer.py --auto
 ```
 
 ### Directory Analysis
 ```bash
 # Scan root directory
-sudo python3 vps_optimizer.py --scan /
+sudo python3 Vps_Optimizer.py --scan /
 
 # Scan specific directory
-sudo python3 vps_optimizer.py --scan /var/log
+sudo python3 Vps_Optimizer.py --scan /var/log
 ```
 
 ### Performance Tuning
 ```bash
 # Run optimization only
-sudo python3 vps_optimizer.py
+sudo python3 Vps_Optimizer.py
 # Select option 4
 ```
 
 ## Logging
 
-All actions are logged to `/tmp/vps_optimizer_[timestamp].log` with:
+All actions are logged to `/tmp/Vps_Optimizer_[timestamp].log` with:
 - Timestamp for each action
 - Command execution results
 - Error messages
@@ -178,7 +178,7 @@ net.ipv4.tcp_congestion_control=bbr
 ### Permission Errors
 ```bash
 # Ensure script runs as root
-sudo python3 vps_optimizer.py
+sudo python3 Vps_Optimizer.py
 ```
 
 ### Docker Not Found
